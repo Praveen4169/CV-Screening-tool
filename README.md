@@ -21,7 +21,7 @@ pip install PyPDF2 openai streamlit
 
 Execute the file using Streamlit by running the command in your terminal
 ```
-streamlit run cv_analyzer.py
+streamlit run CV_screenr.py
 ```
 
 This will start a Streamlit web app where you can upload a CV PDF, enter a job profile, and get the analysis results.
