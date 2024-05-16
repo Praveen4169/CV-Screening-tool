@@ -2,8 +2,8 @@ import PyPDF2
 import openai
 import streamlit as st
 
-# Set your OpenAI API key in a secure way instead of hardcoding it into the script.
-openai.api_key = 'sk-proj-ZmJN9dnPUewdYYU6suOxT3BlbkFJUYj8e5q0YUeBXO8qgWCA'
+# Set your OpenAI API key.
+openai.api_key = 'enter-your-openai-api-key'
 
 
 def pdf_to_text(uploaded_file):
