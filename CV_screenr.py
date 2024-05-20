@@ -3,7 +3,7 @@ import openai
 import streamlit as st
 
 # Set your OpenAI API key.
-openai.api_key = 'enter-your-openai-api-key'
+openai.api_key = st.secrets.openai.api_key
 
 
 def pdf_to_text(uploaded_file):
