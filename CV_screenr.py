@@ -61,7 +61,7 @@ Soft skills Analysis & Weak points.
 
     # Call the OpenAI API using the created prompt for text analysis
     response = openai.chat.completions.create(
-        model="gpt-3.5-turbo-1106",
+        model="gpt-4",
         messages=[
             {"role": "system", "content": "You are a helpful assistant."},
             {"role": "user", "content": prompt}
